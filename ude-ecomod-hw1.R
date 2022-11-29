@@ -39,11 +39,3 @@ for(i in 2:100){
 plot(P,xlab="time",ylab="P",pch=19,col="black")
 
 #### INSERT YOUR CODE BELOW
-# d - the *fraction* of mice in yard eaten by cat / day --> 0-1
-d <- .7
-# b - the *number* of mice born per mouse / day --> N (0-infinity)
-b <- 3
-# m - the *number* of mice arriving in the yard per day --> N (0-infinity)
-m <- 4
-# Nt - the initial number of mice in the yard when we begin the survey
-Nt <- 42
